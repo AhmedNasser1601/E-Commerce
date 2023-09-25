@@ -1,0 +1,33 @@
+{% extends "base.html" %}
+{% block body %}
+    <table class="table table-hover table-dark">
+        <thead>
+            <tr>
+                <th scope="col"></th>
+                <th scope="col">User Name</th>
+                <th scope="col">Email</th>
+                <th scope="col">Budget</th>
+                <th scope="col">Items</th>
+                <th scope="col">Status</th>
+            </tr>
+        </thead>
+        <tbody>
+            {% for user in users %}
+            <tr>
+                <td>{{ user.id }}</td>
+                <td>{{ user.username }}</td>
+                <td>{{ user.email_address }}</td>
+                <td>{{ user.prettier_budget }}</td>
+                <td>{{ user.items.name }}</td>
+                <td>
+                    {% if current_user.username==user.username %}
+                    <button class="btn btn-outline btn-success">Online</button>
+                    {% else %}
+                    <button class="btn btn-outline disabled btn-danger">Offline</button>
+                    {% endif %}
+                </td>
+            </tr>
+            {% endfor %}
+        </tbody>
+    </table>
+{% endblock %}
