@@ -1,3 +1,4 @@
+--upgrade pip
 Flask==2.3.3
 SQLAlchemy==2.0.21
 Flask-WTF==1.1.1
