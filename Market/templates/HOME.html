@@ -1,10 +1,10 @@
 {% extends "base.html" %}
 {% block body %}
-    <h1 style="margin: Auto;">Welcome to E-Commerce Website</h1>
-    <br>
-    <div style="text-align: center; margin: 1%; padding: 1%; background-color: black;">
-        <img src="https://avatars.githubusercontent.com/u/60184582?v=4" alt="Eng. Ahmed Nasser"/>
-        <p style="margin: 1%;">Eng. Ahmed Nasser</p>
+    <div class="position-relative overflow-hidden p-3 p-md-5 m-md-3 text-center bg-dark" style="color:white">
+        <div class="col-md-5 p-lg-5 mx-auto my-5">
+            <h1 class="display-4 font-weight-normal">E-Commerce Website</h1>
+            <p class="lead font-weight-normal">Start purchasing products by clicking the link below</p>
+            <a class="btn btn-primary btn-outline-light btn-lg" href="{{ url_for('MarketPage') }}">Getting Started</a>
+        </div>
     </div>
-
 {% endblock %}
