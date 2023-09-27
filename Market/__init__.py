@@ -11,5 +11,7 @@ app.config['SECRET_KEY'] = os.urandom(12).hex()
 db = SQLAlchemy(app)
 bcrypt = Bcrypt(app)
 login_manager = LoginManager(app)
+login_manager.login_view = 'LoginPage'
+login_manager.login_message_category = 'info'
 
 from Market import routes
