@@ -1,6 +1,6 @@
 <h1 align=center>E-Commerce Website</h1>
 
-This is a simple e-commerce website built with Flask and SQLite. The website allows users to register, login, and purchase items. The website also has an admin panel that allows administrators to view and manage users and items.
+Simple e-commerce website built with Flask and SQLite. Allows users to register, login, and purchase items. Also has an admin panel that allows administrators to view and manage users and items.
 
 <h2 align=center>Go to the website<br>https://e-commerce2023.onrender.com</h2>
 
