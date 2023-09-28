@@ -1,21 +1,17 @@
-<h1 style="text-align: center;">E-Commerce Website</h1>
+<h1 align=center>E-Commerce Website</h1>
 
 This is a simple e-commerce website built with Flask and SQLite. The website allows users to register, login, and purchase items. The website also has an admin panel that allows administrators to view and manage users and items.
 
-<h2 style="text-align: center;">|> Go to the website <|<br><a href="https://e-commerce2023.onrender.com">https://e-commerce2023.onrender.com</a></h2>
-
-
-### Prerequisites
-To run this website, you will need Python 3.6 or later
+<h2 align=center>Go to the website<br>https://e-commerce2023.onrender.com</h2>
 
 ### Dependencies
-- Flask == 2.2.5
-- SQLAlchemy == 2.0.21
-- Flask-WTF == 1.1.1
-- WTForms == 3.0.1
-- Flask-Bcrypt == 1.0.1
-- Flask-Login == 0.6.2
-- gunicorn == 21.2.0
+- Flask >= 2.2.5
+- SQLAlchemy >= 2.0.21
+- Flask-WTF >= 1.1.1
+- WTForms >= 3.0.1
+- Flask-Bcrypt >= 1.0.1
+- Flask-Login >= 0.6.2
+- gunicorn >= 21.2.0
 
 ---
 
@@ -63,15 +59,15 @@ To run this website, you will need Python 3.6 or later
 ---
 
 ### Usage
->> Register for an account.
->
->> Login to your account.
->
->> Browse the items for sale.
->
->> Add items to your cart.
->
->> Checkout and pay for your items.
+> Register for an account.
+
+> Login to your account.
+
+> Browse the items for sale.
+
+> Add items to your cart.
+
+> Checkout and pay for your items.
 
 ---
 
@@ -85,5 +81,9 @@ The admin panel allows administrators to view and manage users and items. It als
 ### Conclusion
 This is a simple e-commerce website built with Flask and SQLite. The website is easy to use and can be customized to meet your needs.
 
+---
+
 ### License
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
+---
